@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="OrangeHRM_AdvancedSuite" verbose="1" parallel="false">
+
+    
+    <test name="LoginTests">
+        <classes>
+            <class name="com.vasanth.tests.LoginTest"/>
+        </classes>
+    </test>
+
+
+    <test name="ForgotPasswordTests">
+        <classes>
+            <class name="com.vasanth.tests.ForgotPasswordFlowTest"/>
+        </classes>
+    </test>
+
+    
+    <test name="AdminTests">
+        <classes>
+            <class name="com.vasanth.tests.SystemUsersTest"/>
+        </classes>
+    </test>
+    
+    <test name="testAddEmployee">
+        <classes>
+            <class name="com.vasanth.tests.AddEmployeeTest"/>
+        </classes>
+    </test>
+
+</suite>

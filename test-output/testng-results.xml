@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-29T19:17:58 IST" name="OrangeHRM_AdvancedSuite" finished-at="2025-09-29T19:20:02 IST" duration-ms="124699">
+    <groups>
+    </groups>
+    <test started-at="2025-09-29T19:17:58 IST" name="LoginTests" finished-at="2025-09-29T19:18:38 IST" duration-ms="40034">
+      <class name="com.vasanth.tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.vasanth.tests.LoginTest@8297b3a]" started-at="2025-09-29T19:17:58 IST" name="setUp" finished-at="2025-09-29T19:18:15 IST" duration-ms="17538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:com.vasanth.tests.LoginTest@8297b3a]" started-at="2025-09-29T19:18:15 IST" name="setupPages" finished-at="2025-09-29T19:18:15 IST" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPages -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.vasanth.tests.LoginTest@8297b3a]" started-at="2025-09-29T19:18:15 IST" name="startTest" finished-at="2025-09-29T19:18:15 IST" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.vasanth.tests.LoginTest.loginWithValidCredentials()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="loginWithValidCredentials()[pri:1, instance:com.vasanth.tests.LoginTest@8297b3a]" started-at="2025-09-29T19:18:15 IST" name="loginWithValidCredentials" finished-at="2025-09-29T19:18:37 IST" duration-ms="21767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentials -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:com.vasanth.tests.LoginTest@8297b3a]" started-at="2025-09-29T19:18:37 IST" name="captureResult" finished-at="2025-09-29T19:18:37 IST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithValidCredentials status=SUCCESS method=LoginTest.loginWithValidCredentials()[pri:1, instance:com.vasanth.tests.LoginTest@8297b3a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.vasanth.tests.LoginTest@8297b3a]" started-at="2025-09-29T19:18:37 IST" name="startTest" finished-at="2025-09-29T19:18:37 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.vasanth.tests.LoginTest.loginWithInvalidCredentials()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="loginWithInvalidCredentials()[pri:2, instance:com.vasanth.tests.LoginTest@8297b3a]" started-at="2025-09-29T19:18:37 IST" name="loginWithInvalidCredentials" finished-at="2025-09-29T19:18:37 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidCredentials -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:com.vasanth.tests.LoginTest@8297b3a]" started-at="2025-09-29T19:18:37 IST" name="captureResult" finished-at="2025-09-29T19:18:37 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithInvalidCredentials status=SUCCESS method=LoginTest.loginWithInvalidCredentials()[pri:2, instance:com.vasanth.tests.LoginTest@8297b3a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.vasanth.tests.LoginTest@8297b3a]" started-at="2025-09-29T19:18:37 IST" name="tearDown" finished-at="2025-09-29T19:18:38 IST" duration-ms="572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.vasanth.tests.LoginTest -->
+    </test> <!-- LoginTests -->
+    <test started-at="2025-09-29T19:18:38 IST" name="ForgotPasswordTests" finished-at="2025-09-29T19:19:10 IST" duration-ms="32312">
+      <class name="com.vasanth.tests.ForgotPasswordFlowTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.vasanth.tests.ForgotPasswordFlowTest@1e178745]" started-at="2025-09-29T19:18:38 IST" name="setUp" finished-at="2025-09-29T19:19:02 IST" duration-ms="24207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:com.vasanth.tests.ForgotPasswordFlowTest@1e178745]" started-at="2025-09-29T19:19:02 IST" name="setupPages" finished-at="2025-09-29T19:19:02 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPages -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.vasanth.tests.ForgotPasswordFlowTest@1e178745]" started-at="2025-09-29T19:19:02 IST" name="startTest" finished-at="2025-09-29T19:19:02 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.vasanth.tests.ForgotPasswordFlowTest.verifyForgotPasswordFlow()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="verifyForgotPasswordFlow()[pri:0, instance:com.vasanth.tests.ForgotPasswordFlowTest@1e178745]" started-at="2025-09-29T19:19:02 IST" name="verifyForgotPasswordFlow" finished-at="2025-09-29T19:19:09 IST" duration-ms="7444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPasswordFlow -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:com.vasanth.tests.ForgotPasswordFlowTest@1e178745]" started-at="2025-09-29T19:19:09 IST" name="captureResult" finished-at="2025-09-29T19:19:09 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyForgotPasswordFlow status=SUCCESS method=ForgotPasswordFlowTest.verifyForgotPasswordFlow()[pri:0, instance:com.vasanth.tests.ForgotPasswordFlowTest@1e178745] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.vasanth.tests.ForgotPasswordFlowTest@1e178745]" started-at="2025-09-29T19:19:09 IST" name="tearDown" finished-at="2025-09-29T19:19:10 IST" duration-ms="608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.vasanth.tests.ForgotPasswordFlowTest -->
+    </test> <!-- ForgotPasswordTests -->
+    <test started-at="2025-09-29T19:19:10 IST" name="AdminTests" finished-at="2025-09-29T19:19:43 IST" duration-ms="32900">
+      <class name="com.vasanth.tests.SystemUsersTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.vasanth.tests.SystemUsersTest@49e5f737]" started-at="2025-09-29T19:19:10 IST" name="setUp" finished-at="2025-09-29T19:19:16 IST" duration-ms="5450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.vasanth.tests.SystemUsersTest@49e5f737]" started-at="2025-09-29T19:19:16 IST" name="pageSetup" finished-at="2025-09-29T19:19:16 IST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="loginTest()[pri:1, instance:com.vasanth.tests.SystemUsersTest@49e5f737]" started-at="2025-09-29T19:19:16 IST" name="loginTest" finished-at="2025-09-29T19:19:17 IST" duration-ms="1038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.vasanth.tests.SystemUsersTest@49e5f737]" started-at="2025-09-29T19:19:16 IST" name="startTest" finished-at="2025-09-29T19:19:16 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.vasanth.tests.SystemUsersTest.loginTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:com.vasanth.tests.SystemUsersTest@49e5f737]" started-at="2025-09-29T19:19:17 IST" name="captureResult" finished-at="2025-09-29T19:19:17 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=SystemUsersTest.loginTest()[pri:1, instance:com.vasanth.tests.SystemUsersTest@49e5f737] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method signature="createUserTest()[pri:2, instance:com.vasanth.tests.SystemUsersTest@49e5f737]" started-at="2025-09-29T19:19:17 IST" name="createUserTest" finished-at="2025-09-29T19:19:42 IST" depends-on-methods="com.vasanth.tests.SystemUsersTest.loginTest" duration-ms="25758" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //div[@role='listbox']//span (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\sree\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50104}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50104/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 64280c1c2c1859118f51df0b2ccf5db1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@role='listbox']//span (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\sree\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50104}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50104/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 64280c1c2c1859118f51df0b2ccf5db1
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.vasanth.pages.AdminPage.createUser(AdminPage.java:40)
+at com.vasanth.tests.SystemUsersTest.createUserTest(SystemUsersTest.java:27)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserTest -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.vasanth.tests.SystemUsersTest@49e5f737]" started-at="2025-09-29T19:19:17 IST" name="startTest" finished-at="2025-09-29T19:19:17 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.vasanth.tests.SystemUsersTest.createUserTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:com.vasanth.tests.SystemUsersTest@49e5f737]" started-at="2025-09-29T19:19:42 IST" name="captureResult" finished-at="2025-09-29T19:19:43 IST" duration-ms="182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createUserTest status=FAILURE method=SystemUsersTest.createUserTest()[pri:2, instance:com.vasanth.tests.SystemUsersTest@49e5f737] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.vasanth.tests.SystemUsersTest@49e5f737]" started-at="2025-09-29T19:19:43 IST" name="tearDown" finished-at="2025-09-29T19:19:43 IST" duration-ms="416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.vasanth.tests.SystemUsersTest -->
+    </test> <!-- AdminTests -->
+    <test started-at="2025-09-29T19:19:43 IST" name="testAddEmployee" finished-at="2025-09-29T19:20:02 IST" duration-ms="19373">
+      <class name="com.vasanth.tests.AddEmployeeTest">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:com.vasanth.tests.AddEmployeeTest@10aa41f2]" started-at="2025-09-29T19:17:57 IST" name="setupReport" finished-at="2025-09-29T19:17:58 IST" duration-ms="437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.vasanth.tests.AddEmployeeTest@10aa41f2]" started-at="2025-09-29T19:19:43 IST" name="setUp" finished-at="2025-09-29T19:19:45 IST" duration-ms="2384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.vasanth.tests.AddEmployeeTest@10aa41f2]" started-at="2025-09-29T19:19:45 IST" name="pageSetup" finished-at="2025-09-29T19:19:45 IST" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.vasanth.tests.AddEmployeeTest@10aa41f2]" started-at="2025-09-29T19:19:45 IST" name="startTest" finished-at="2025-09-29T19:19:45 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.vasanth.tests.AddEmployeeTest.loginTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="loginTest()[pri:1, instance:com.vasanth.tests.AddEmployeeTest@10aa41f2]" started-at="2025-09-29T19:19:45 IST" name="loginTest" finished-at="2025-09-29T19:19:49 IST" duration-ms="3196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:com.vasanth.tests.AddEmployeeTest@10aa41f2]" started-at="2025-09-29T19:19:49 IST" name="captureResult" finished-at="2025-09-29T19:19:49 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=AddEmployeeTest.loginTest()[pri:1, instance:com.vasanth.tests.AddEmployeeTest@10aa41f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.vasanth.tests.AddEmployeeTest@10aa41f2]" started-at="2025-09-29T19:19:49 IST" name="startTest" finished-at="2025-09-29T19:19:49 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.vasanth.tests.AddEmployeeTest.testAddNewEmployee()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="testAddNewEmployee()[pri:2, instance:com.vasanth.tests.AddEmployeeTest@10aa41f2]" started-at="2025-09-29T19:19:49 IST" name="testAddNewEmployee" finished-at="2025-09-29T19:20:01 IST" duration-ms="12835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddNewEmployee -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:com.vasanth.tests.AddEmployeeTest@10aa41f2]" started-at="2025-09-29T19:20:01 IST" name="captureResult" finished-at="2025-09-29T19:20:01 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddNewEmployee status=SUCCESS method=AddEmployeeTest.testAddNewEmployee()[pri:2, instance:com.vasanth.tests.AddEmployeeTest@10aa41f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.vasanth.tests.AddEmployeeTest@10aa41f2]" started-at="2025-09-29T19:20:01 IST" name="tearDown" finished-at="2025-09-29T19:20:02 IST" duration-ms="857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:com.vasanth.tests.AddEmployeeTest@10aa41f2]" started-at="2025-09-29T19:20:02 IST" name="flushReport" finished-at="2025-09-29T19:20:03 IST" duration-ms="773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- com.vasanth.tests.AddEmployeeTest -->
+    </test> <!-- testAddEmployee -->
+  </suite> <!-- OrangeHRM_AdvancedSuite -->
+</testng-results>

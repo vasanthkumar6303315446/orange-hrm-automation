@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">OrangeHRM_AdvancedSuite</th></tr>
+<tr><td><a href="#t0">LoginTests</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">40,034</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">ForgotPasswordTests</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">32,312</td><td></td><td></td></tr>
+<tr><td><a href="#t2">AdminTests</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">32,900</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">testAddEmployee</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">19,373</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">6</th><th class="num">0</th><th class="num">0</th><th class="num attn">1</th><th class="num">124,619</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">OrangeHRM_AdvancedSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">LoginTests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.vasanth.tests.LoginTest</td><td><a href="#m0">loginWithInvalidCredentials</a></td><td rowspan="1">1759153717607</td><td rowspan="1">2</td></tr><tr class="passedeven"><td><a href="#m1">loginWithValidCredentials</a></td><td rowspan="1">1759153695816</td><td rowspan="1">21767</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">ForgotPasswordTests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.vasanth.tests.ForgotPasswordFlowTest</td><td><a href="#m2">verifyForgotPasswordFlow</a></td><td rowspan="1">1759153742491</td><td rowspan="1">7444</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">AdminTests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.vasanth.tests.SystemUsersTest</td><td><a href="#m3">createUserTest</a></td><td rowspan="1">1759153757097</td><td rowspan="1">25758</td></tr><tr><th colspan="4">AdminTests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.vasanth.tests.SystemUsersTest</td><td><a href="#m4">loginTest</a></td><td rowspan="1">1759153756052</td><td rowspan="1">1038</td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">testAddEmployee &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.vasanth.tests.AddEmployeeTest</td><td><a href="#m5">loginTest</a></td><td rowspan="1">1759153785945</td><td rowspan="1">3196</td></tr><tr class="passedeven"><td><a href="#m6">testAddNewEmployee</a></td><td rowspan="1">1759153789148</td><td rowspan="1">12835</td></tr></tbody>
+</table>
+<h2>LoginTests</h2><h3 id="m0">com.vasanth.tests.LoginTest#loginWithInvalidCredentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.vasanth.tests.LoginTest#loginWithValidCredentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>ForgotPasswordTests</h2><h3 id="m2">com.vasanth.tests.ForgotPasswordFlowTest#verifyForgotPasswordFlow</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>AdminTests</h2><h3 id="m3">com.vasanth.tests.SystemUsersTest#createUserTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@role=&apos;listbox&apos;]//span (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\sree\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50104}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50104/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 64280c1c2c1859118f51df0b2ccf5db1
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.vasanth.pages.AdminPage.createUser(AdminPage.java:40)
+	at com.vasanth.tests.SystemUsersTest.createUserTest(SystemUsersTest.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.vasanth.tests.SystemUsersTest#loginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>testAddEmployee</h2><h3 id="m5">com.vasanth.tests.AddEmployeeTest#loginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.vasanth.tests.AddEmployeeTest#testAddNewEmployee</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
