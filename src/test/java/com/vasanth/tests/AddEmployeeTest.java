@@ -30,7 +30,7 @@ public class AddEmployeeTest extends BaseTest {
         
         addEmployeePage.uploadProfilePicture("https://www.bing.com/th/id/OIP.bmNx4HcklMqp-k11aTDbkQHaE8?w=242");
 
-        addEmployeePage.enterEmployeeName("John", "A.", "Doe");
+        addEmployeePage.enterEmployeeName("vasan", "k.", "katikuti");
         addEmployeePage.enableLoginDetails("john.doe", "SecurePass123", "SecurePass123");
         addEmployeePage.clickSave();
 
