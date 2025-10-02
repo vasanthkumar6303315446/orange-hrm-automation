@@ -31,7 +31,7 @@ public class AddEmployeeTest extends BaseTest {
         addEmployeePage.uploadProfilePicture("https://www.bing.com/th/id/OIP.bmNx4HcklMqp-k11aTDbkQHaE8?w=242");
 
         addEmployeePage.enterEmployeeName("vasan", "k.", "katikuti");
-        addEmployeePage.enableLoginDetails("john.doe", "SecurePass123", "SecurePass123");
+        addEmployeePage.enableLoginDetails("vasan.kattikuti", "SecurePass123", "SecurePass123");
         addEmployeePage.clickSave();
 
         Assert.assertTrue(addEmployeePage.isEmployeeAdded(), " Employee was not added successfully.");
